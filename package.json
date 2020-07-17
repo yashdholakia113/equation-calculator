@@ -1,0 +1,31 @@
+{
+  "name": "equation-calculator",
+  "version": "1.0.0",
+  "description": "A simple calculator",
+  "main": "server.js",
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashdholakia113/equation-calculator"
+  },
+  "author": "Dhruv Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashdholakia113/equation-calculator/issues"
+  },
+  "homepage": "https://github.com/yashdholakia113/equation-calculator#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.15.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4"
+  }
+}

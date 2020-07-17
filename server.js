@@ -4,7 +4,7 @@ var path = require('path');
 var morgan = require('morgan');
 var server = require('http').createServer(app)
 
-var port = process.env.PORT || 3002;
+var port = process.env.PORT || 5000;
 var deque = []; // Initialize double-ended queue to insert from beginning and remove from end
 
 connections = []
